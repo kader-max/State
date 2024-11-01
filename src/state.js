@@ -31,7 +31,7 @@ export default function Buton(){
                 <textarea onChange={(even)=>{
                     setFormData({...FormData,info:even.target.value})
                 }}></textarea><hr/>
-                <button onClick={()=>{;console.log(FormData)}}>Submit</button>
+                <button style={{backgroundColor:'green'}} onClick={()=>{;console.log(FormData)}}>Submit</button>
             </form>
         </div>
     )
